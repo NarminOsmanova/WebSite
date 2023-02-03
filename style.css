@@ -1,0 +1,275 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(244, 250, 246);
+  overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+header {
+  background: url(./assets/img/backk.avif) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  filter: grayscale(0.5);
+}
+.head img {
+  margin: 20px;
+  width: 70px;
+}
+.head input {
+  margin: 20px;
+  padding: 0 35px;
+  height: 40px;
+  background-color: rgb(57, 88, 115);
+  border-radius: 25px;
+  color: white;
+  border: 3px solid rgb(4,170,109);
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.head input:hover {
+  background-color: rgb(45, 57, 66);
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+.head-text {
+  text-align: center;
+  font-size: 1.5em;
+  color: #fff;
+}
+.head-text input {
+  padding: 15px 35px;
+  background-color: rgb(4, 170, 109);
+  color: #fff;
+  border-radius: 30px;
+  border: none;
+  font-size: 20px;
+}
+.head-text input:hover {
+  background-color: rgb(5, 141, 91);
+}
+.section-a {
+  /* width: 1320px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.section-a .container .row .col-12  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-a .container .row .col-12 h4 {
+  margin: 50px 0 0 0;
+  font-size: 24px;
+  color: rgb(4, 170, 132);
+  text-align: center;
+}
+.section-a .container .row .col-12 p {
+  width: 50%;
+  margin-top: 10px;
+  text-align: center;
+}
+.section-b {
+  background-color: rgb(40, 42, 53);
+  color: #fff;
+  padding: 30px;
+}
+.section-b .container h2 {
+  text-align: center;
+  font-size: 32px;
+}
+.section-c .section-text {
+  text-align: center; 
+ position: relative;
+}
+.section-c .section-text h2 {
+  font-size: 2em;
+}
+.section-c .section-text .font {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(101, 104, 110);
+}
+.section-c input[type="radio"] {
+  position: relative;
+  appearance: none;
+  width: 50px;
+  height: 25px;
+  border: 1px solid rgb(4, 170, 109);
+  border-radius: 30px;
+  background-color: rgb(4, 170, 109);
+  cursor: pointer;
+  transition: all 5s;
+}
+.fa-circle{
+  position: absolute;
+  color: #fff;
+  background-color: #fff;
+  cursor: pointer;
+  top: 97px;
+  left: 470px;
+  border-radius: 50%;
+}
+.section-c{
+  background-color: #F4FAF6;
+}
+.section-c .fa-circle:active {
+  transform: translateX(22px);
+} 
+.section-c .container .row {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    width: 1000px;
+    margin:0 auto;
+    margin-top: 50px;
+    border-radius: 20px;
+  }
+.section-c .container .row .col-12 .aside-1 {
+  background-color: rgb(40, 42, 53);
+  margin: 0px 20px 0 90px;
+  width: 280px;
+  padding: 25px;
+  border-radius: 20px;
+}
+.section-c .container .row .col-12 .aside-1 input {
+  width: 240px;
+  background-color: rgb(255, 244, 163);
+  padding: 12px;
+  border: none;
+  border-radius: 30px;
+  font-weight: 800;
+}
+.section-c .container .row .col-12 .bg-color {
+  background-color: rgb(255, 192, 199) !important;
+  cursor: pointer;
+}
+.section-c .container .row .col-12 .bg-color:hover{
+    background-color: rgb(243, 166, 175) !important;
+}
+.section-c .container .row .col-12 .aside-1 h3 {
+  font-size: 26px;
+  color: #fff;
+}
+.section-c .container .row .col-12 .aside-1 h4 {
+  font-size: 24px;
+  color: #fff;
+}
+.section-c .container .row .col-12 .aside-1 p {
+  font-size: 16px;
+  color: #fff;
+}
+.section-c .container .row .col-12 .aside-1 ul li {
+  font-weight: 600;
+  color: #fff;
+  line-height: 2;
+}
+.section-c .container .row .col-12 .aside-1 input {
+  width: 200px;
+}
+.section-c .container .row .card{
+ border: none;
+ border-right: 1px solid #ddd;
+ border-radius: 0%;
+}
+.section-c .container .row .col-12 .aside-2 {
+  background-color: #fff;
+  padding: 71px 0 25px 25px;
+  border-radius: 20px; 
+}
+.section-c .container .row .col-12 .aside-2 input {
+  width: 170px;
+  background-color: rgb(4, 170, 109);
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 30px;
+  font-weight: 800;
+  cursor: pointer;
+}
+.section-c .container .row .col-12 .aside-2 input:hover{
+    background-color: rgb(4, 158, 101);
+}
+
+.section-c .container .row .col-12 .aside-2 h3 {
+  font-size: 26px;
+}
+.section-c .container .row .col-12 .aside-2 h3 span{
+  color: rgb(104,105,113);
+   font-weight:normal;
+   font-size: 18px;
+}
+.section-c .container .row .col-12 .aside-2 h4 {
+  font-size: 24px;
+}
+.section-c .container .row .col-12 .aside-2 p {
+  font-size: 16px;
+  color: rgb(53, 42, 53);
+  font-weight: 550;
+}
+.section-c .container .row .col-12 .aside-2 ul li {
+  color: rgb(104, 105, 136);
+  line-height: 2;
+}
+.div1{
+    text-align: center;
+}
+.div1 h4{
+    margin-top: 100px;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.div1 h5{
+    margin-top: 7px;
+}
+.div1 h5 a{
+    font-size: 16px;
+    color: rgb(4,171,122);
+}
+.div1 h5 a:hover{
+    text-decoration: underline;
+}
+.div1 pre a{
+    color: rgb(63,133,255);
+}
+.div1 pre a:hover{
+    text-decoration: underline;
+}
+.div1 pre{
+    margin: 60px 0;
+    color: rgb(79,84,90);
+    font-size: 12px;
+    font-family: sans-serif;
+}
+footer{
+    height: 100px;
+    background-color: #fff;
+}
+footer p{
+    text-align: center;
+    font-size: 14px;
+    color: rgb(183,184,187);
+}
+footer p:first-child{
+    padding: 20px 0 10px 0;
+}
+footer p:last-child {
+    margin-bottom: 25px;
+}
+footer p a{
+    color: rgb(183,184,187);
+    text-decoration: underline;
+}
+footer p a:hover{
+    color: rgb(81, 199, 156);
+}
